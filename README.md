@@ -70,10 +70,10 @@ It has support for `GET`, `POST`, `PUT` and `DELETE` OAuth 1.0a signed requests.
 ```perl    
 $api->execute("url", "type request", "debug mode", "data");
 ```
-url - REST API path. For example "/users.json", returns a list users
-type request -  "get" or "post" or "put" or "delete". Only lower case!
-debug mode - mode debug output. option 1 - active mode, option 0 - deactive mode. Required option!
-data - information for "post" or "put" method. Only array! Required for above method request.
+url - REST API path. For example "/users.json", returns a list users  
+type request -  "get" or "post" or "put" or "delete". Only lower case!    
+debug mode - mode debug output. option 1 - active mode, option 0 - deactive mode. Required option!  
+data - information for "post" or "put" method. Only array! Required for above method request.  
 
 ## Help
 
