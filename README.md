@@ -80,3 +80,8 @@ $api->execute("url", "type request", "debug mode", "data");
 If your IO Socket doesn't install properly then run:
 
 `CPAN::Shell->force(qw(install IO::Socket::SSL));`
+
+
+##Support 
+
+Support is available with assistance http://king-servers.com
