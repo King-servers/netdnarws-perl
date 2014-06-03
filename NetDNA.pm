@@ -1,7 +1,10 @@
 #!/usr/bin/perl -w
 
 #NetDNA API Sample Code - Perl
-#Version 1.1a
+#Version 2.0 Beta
+#Fork from Sindbad911
+#Supported by king-servers.com
+
 
 package NetDNA;
 use strict;
@@ -14,10 +17,7 @@ sub new {
                 _consumer_key           => shift,
                 _consumer_secret        => shift,
         };
-        # Print all the values just for clarification.
-        #print "My Alias is $self->{_myalias}\n";
-        #print "My Consumer Key is $self->{_consumer_key}\n";
-        #print "My Consumer Secret is $self->{_consumer_secret}\n";
+        
         bless $self, $class;
         return $self;
 }
